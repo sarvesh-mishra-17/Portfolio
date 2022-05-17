@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Nunito:ital@1&family=Oleo+Script+Swash+Caps&family=Water+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Nunito:ital@1&family=Oleo+Script+Swash+Caps&family=Source+Sans+Pro:wght@700&family=Water+Brush&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Nunito:ital@1&family=Oleo+Script+Swash+Caps&family=Source+Sans+Pro:wght@700&family=Water+Brush&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: rgb(226, 212, 212);
+  font-family: "Macondo", cursive;
+  height: 100vh;
+  position: absolute;
+  width: 155px;
+  padding: 0 45px;
+  transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+  padding: 45px;
+  margin: 13px 11px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 33px 0;
+  width: 10vw;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: rgb(14, 10, 10);
+}
+
+.main {
+  /* background-color: orange; */
+  width: 90vw;
+  padding: 23px;
+}
+
+.container {
+  display: flex;
+}
+
+.Infocontainer {
+  /* background-color: aqua; */
+  margin: 80px auto;
+  flex-wrap: wrap;
+  height: 50vh;
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devinfo {
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.Hello {
+  font-size: 3em; 
+  padding-left: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.Name {
+  font-size: 3em;
+  padding-left: 20px;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.education {
+  font-family: "Macondo", cursive;
+  padding-left: 20px;
+  padding-top: 18px;
+  font-size: 14px;
+
+}
+
+.About {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.Moreabout {
+  /* font-family: "Macondo", cursive; */
+  font-size: 2em;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.buttons {
+  margin-top: 2.2em;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 8px 14px;
+  font-size: 2em;
+  padding: 7px 12px;
+  color: white;
+  background-color: rgb(77, 77, 241);
+  border-radius: 15px;
+  font-weight: bold;
+  margin: 10px 8px;
+  cursor: pointer;
+}
+
+.btn-btn-sm {
+  font-size: 18px;
+  padding: 7px 12px;
+  margin: 10px 8px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(77, 77, 241);
+}
+
+.devpic img {
+  width: 264px;
+  height: 50vh;
+  /* padding: 0 55px; */
+  /* position: relative; */
+  /* left: 280px; */
+}
+
+.contactform {
+  padding: 0 34px;
+  padding-left: 250px;
+  padding-top: 144px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.contactform h1 {
+  font-family: "Macondo", cursive;
+  padding: 12px 0;
+}
+
+.contactform div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#emailHelp {
+  font-size: 10px;
+  color: rgb(24, 121, 248);
+  margin: 0px 4px;
+}
+
+.contactform form div input {
+  /* width: 22vw; */
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 6px 0 0 0;
+}
+.contactform form{
+  margin: 0 40px;
+}
+
+#form-check {
+  flex-direction: row;
+}
+
+#form-check input {
+  width: 15px;
+  margin: 4px 5px;
+}
+
+.blogItem {
+  margin: 25px;
+  padding-left: 250px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.blogContainer h1 {
+  margin: 23px;
+  padding-left: 270px;
+  font-family: "Macondo", cursive;
+}
+
+.blogItem p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+
+
+.intro h2 {
+  font-family: "Macondo", cursive;
+  margin: 12px 12px;
+  padding-left: 250px;
+}
+
+.intro p {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 12px 12px;
+  padding-left: 250px;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900px;
+}
+
+.skill {
+  height: 10px;
+  width: 179px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.skillContainer {
+  padding: 12px;
+}
+
+.hundered {
+  width: 265px;
+  background-color: rgb(241, 53, 201);
+}
+
+.fifty {
+  width: 125px;
+  background-color: rgb(69, 66, 245);
+}
+
+.t5 {
+  width: 75px;
+  background-color: rgb(58, 241, 73);
+}
+
+.sidebarGo {
+  transform: translate(-399px, 0);
+  position: absolute;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.ham{
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.cross {
+  margin-left: 208px;
+}
+
+@media (max-width: 1745px) {
+  * {
+    /* background-color: rgb(81, 22, 241); */
+  }
+  .buttons{
+    font-size: 6px;
+  }
+  .devpic {
+    display: none;
+  }
+  .devinfo{
+    font-size: 10px;
+  }
+
+  .intro, .blogContainer, .contactform{
+    margin: 2em;
+  }
+
+  /* .sidebar{
+    transform: translate(-377px, 0);
+    position: absolute;
+  } */
+}
